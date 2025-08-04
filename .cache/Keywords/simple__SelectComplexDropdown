@@ -1,0 +1,56 @@
+{
+  "keywordFileContentHash": "C7A94DA2E567F9BDC04AFC6983E7B5A1",
+  "keywordClasses": [
+    {
+      "name": "simple.SelectComplexDropdown",
+      "keywordMethods": [
+        {
+          "name": "selecionarOpcaoDropdownComplexo",
+          "parameters": [
+            {
+              "name": "bttnDropdown",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "containerOptions",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "optionText",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Clica em um botão para abrir um dropdown customizado e seleciona uma opção (li) pelo texto.\r\n\t * @param bttnDropdown O Test Object do botão que abre o dropdown.\r\n\t * @param containerOptions O Test Object do container (ul/div) que aparece com as opções.\r\n\t * @param optionText O texto exato da opção (li) a ser selecionada.\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select Shipping Method And Continue To Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5be6ac6b-5383-4777-967b-44a4840e33d1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4e8f5067-5af8-44b1-bfdf-a87cf5c5bf52</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Normal'</defaultValue>
+      <description></description>
+      <id>4e8f5067-5af8-44b1-bfdf-a87cf5c5bf52</id>
+      <masked>false</masked>
+      <name>shipping_method</name>
+   </variable>
+</TestCaseEntity>

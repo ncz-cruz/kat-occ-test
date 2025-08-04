@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select Boleto And Submit Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>392fa7eb-2e8f-4ca4-adf7-c9fa4cf9639f</testCaseGuid>
+</TestCaseEntity>

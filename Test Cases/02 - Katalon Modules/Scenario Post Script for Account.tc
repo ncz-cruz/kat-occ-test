@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Scenario Post Script for Account</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2a1b3eda-df04-4c2e-b13d-193dee0643c4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3307c55b-8cb4-446b-9d19-6c862a293875</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3307c55b-8cb4-446b-9d19-6c862a293875</id>
+      <masked>false</masked>
+      <name>test_case</name>
+   </variable>
+</TestCaseEntity>

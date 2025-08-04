@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Simple scenario</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1c97307-715e-4893-8f6b-1317aa916b30</testCaseGuid>
+   <variable>
+      <defaultValue>'01CP200K17'</defaultValue>
+      <description></description>
+      <id>ee256b57-30d9-4e5b-9fc5-cce01d38f7b6</id>
+      <masked>false</masked>
+      <name>sku_id</name>
+   </variable>
+   <variable>
+      <defaultValue>'4'</defaultValue>
+      <description></description>
+      <id>5b3b1486-d2ff-42df-a7ad-88c6f79b8a4b</id>
+      <masked>false</masked>
+      <name>number_of_star</name>
+   </variable>
+   <variable>
+      <defaultValue>'Yes'</defaultValue>
+      <description></description>
+      <id>04dd72cd-595c-4445-bb33-4647fcfd7d4e</id>
+      <masked>false</masked>
+      <name>recommandationYN</name>
+   </variable>
+   <variable>
+      <defaultValue>'I LOVE THIS PRODUCT'</defaultValue>
+      <description></description>
+      <id>68873018-f701-4644-9ab2-1b0fab33acb0</id>
+      <masked>false</masked>
+      <name>reviewTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'BEST PRODUCT EVER, I LOVE THIS SKU AHAH'</defaultValue>
+      <description></description>
+      <id>ffd50efd-588e-47d4-bb98-0702ec8647bd</id>
+      <masked>false</masked>
+      <name>reviewText</name>
+   </variable>
+   <variable>
+      <defaultValue>'Edna'</defaultValue>
+      <description></description>
+      <id>3eb1eec9-72fb-4ca5-afdc-098117d3a0f2</id>
+      <masked>false</masked>
+      <name>nickName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Springfield'</defaultValue>
+      <description></description>
+      <id>55244bf6-98c4-4446-98c5-aae47af1fc62</id>
+      <masked>false</masked>
+      <name>location</name>
+   </variable>
+   <variable>
+      <defaultValue>'daily,night,dry skin'</defaultValue>
+      <description></description>
+      <id>1a7f3741-2869-47da-8016-f4b14d518453</id>
+      <masked>false</masked>
+      <name>tags</name>
+   </variable>
+   <variable>
+      <defaultValue>'Very dry'</defaultValue>
+      <description></description>
+      <id>c8af09bf-870b-4188-872c-5256dc306158</id>
+      <masked>false</masked>
+      <name>skinType</name>
+   </variable>
+   <variable>
+      <defaultValue>'45-54'</defaultValue>
+      <description></description>
+      <id>da23ef5a-6e62-4490-90dc-13f289be449e</id>
+      <masked>false</masked>
+      <name>ageRange</name>
+   </variable>
+   <variable>
+      <defaultValue>'Yes'</defaultValue>
+      <description></description>
+      <id>babf87c7-a7ff-40ee-9a94-796eed97d4aa</id>
+      <masked>false</masked>
+      <name>incentive</name>
+   </variable>
+   <variable>
+      <defaultValue>'toto@gmail.com'</defaultValue>
+      <description></description>
+      <id>2fae123a-d141-437d-992d-22b3aa2e9669</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

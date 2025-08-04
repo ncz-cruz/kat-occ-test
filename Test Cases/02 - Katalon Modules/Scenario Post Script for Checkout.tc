@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Scenario Post Script for Checkout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>365bc07e-6bd4-4290-a9a5-d20214de65fc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b05fa233-c9cd-4a82-b227-8221b81cdfd8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>15775c8a-f609-4b46-a985-6309d5f7a9a2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>048d47e3-cae4-40d5-83f3-52da8ab27893</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b05fa233-c9cd-4a82-b227-8221b81cdfd8</id>
+      <masked>false</masked>
+      <name>order_uuid</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>15775c8a-f609-4b46-a985-6309d5f7a9a2</id>
+      <masked>false</masked>
+      <name>excelPath</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>048d47e3-cae4-40d5-83f3-52da8ab27893</id>
+      <masked>false</masked>
+      <name>test_case</name>
+   </variable>
+</TestCaseEntity>

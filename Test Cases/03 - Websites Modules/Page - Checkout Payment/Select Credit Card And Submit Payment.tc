@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select Credit Card And Submit Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>63f2a86f-a25e-4dbf-8a60-e03ed88aab1d</testCaseGuid>
+</TestCaseEntity>

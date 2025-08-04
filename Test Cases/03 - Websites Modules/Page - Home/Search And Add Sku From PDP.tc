@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search And Add Sku From PDP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3ecbae73-35f5-4deb-ae3e-8bdb85ff053c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8f929475-b71e-4135-88bc-addcc5154c6f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8f929475-b71e-4135-88bc-addcc5154c6f</id>
+      <masked>false</masked>
+      <name>sku_id</name>
+   </variable>
+</TestCaseEntity>

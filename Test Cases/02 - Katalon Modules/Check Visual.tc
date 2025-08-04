@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check Visual</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b110aa66-0743-4a46-9d6d-3121e728bf43</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4c95b071-adef-4113-9233-3d24d39dc4d1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4c95b071-adef-4113-9233-3d24d39dc4d1</id>
+      <masked>false</masked>
+      <name>screenName</name>
+   </variable>
+</TestCaseEntity>

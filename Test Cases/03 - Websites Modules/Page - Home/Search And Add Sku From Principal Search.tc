@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search And Add Sku From Principal Search</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ed562b48-411d-49a4-aeab-bd05c6623669</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2d61f497-f011-4149-ad97-c5fe00c64f6b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2d61f497-f011-4149-ad97-c5fe00c64f6b</id>
+      <masked>false</masked>
+      <name>sku_id</name>
+   </variable>
+</TestCaseEntity>

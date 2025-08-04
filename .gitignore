@@ -1,0 +1,9 @@
+/Reports/*
+/Screenshots/*
+/bin/
+/Libs/*
+.project
+.classpath
+debug.log
+/Data Files/*_output.xlsx
+/execute.sh
