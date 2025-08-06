@@ -5,7 +5,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.annotation.Keyword as Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.context.TestSuiteContext
+import com.kms.katalon.core.context.TestSuiteContext as TestSuiteContext
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
@@ -24,19 +24,32 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 
 //Initializing browser
-//WebUI.callTestCase(findTestCase('02 - Katalon Modules/Scenario Pre Script'), ['test_case':test_case])
+WebUI.callTestCase(findTestCase('02 - Katalon Modules/Scenario Pre Script'), ['test_case':test_case])
 //Scenario steps
-WebUI.callTestCase(findTestCase('03 - Websites Modules/Page - Home/Search And Add Sku From Principal Search'), ['sku_id':sku_id])
+WebUI.callTestCase(findTestCase('03 - Websites Modules/Login Modal/Login From OCC'), [:])
+WebUI.callTestCase(findTestCase('03 - Websites Modules/Page - Home/Search And Add Sku From Principal Search'), ['sku_id' : sku_id])
+
 //WebUI.callTestCase(findTestCase('02 - Katalon Modules/Check Visual'), ['screenName':"1A - Simple Cart Page"])
-WebUI.callTestCase(findTestCase('03 - Websites Modules/Page - Cart/Checkout Cart'),[:])
-WebUI.callTestCase(findTestCase('03 - Websites Modules/Page - Login from Cart'),[:])
-WebUI.callTestCase(findTestCase('03 - Websites Modules/Page - Checkout Shipping Address/Input Valid Shipping Address'),['first_name':first_name,'last_name':last_name,'zip_postal':zip_postal, 'address1':address1,'city':city,'hood':hood,'number':number,'complement':complement,'reference':reference,'phone':phone])
+WebUI.callTestCase(findTestCase('03 - Websites Modules/Page - Cart/Checkout Cart'), [:])
+
+WebUI.callTestCase(findTestCase('03 - Websites Modules/Page - Checkout Shipping Address/Input Valid Shipping Address'), 
+    ['first_name' : first_name, 'last_name' : last_name, 'zip_postal' : zip_postal, 'address1' : address1, 'city' : city
+        , 'hood' : hood, 'number' : number, 'complement' : complement, 'reference' : reference, 'phone' : phone])
+
 //WebUI.callTestCase(findTestCase('02 - Katalon Modules/Check Visual'), ['screenName':"1A - Simple Shipping Page"])
-WebUI.callTestCase(findTestCase('03 - Websites Modules/Page - Checkout Shipping Method/Select Shipping Method And Continue To Payment'),['shipping_method':shipping_method])
+WebUI.callTestCase(findTestCase('03 - Websites Modules/Page - Checkout Shipping Method/Select Shipping Method And Continue To Payment'), 
+    ['shipping_method' : shipping_method])
+
 //WebUI.callTestCase(findTestCase('02 - Katalon Modules/Check Visual'), ['screenName':"1A - Simple Payment Page"])
-WebUI.callTestCase(findTestCase('03 - Websites Modules/Page - Checkout Payment/Select Pix And Submit Payment'),[:])
-WebUI.callTestCase(findTestCase('03 - Websites Modules/Page - Checkout Payment/Place Order'),[:])
+WebUI.callTestCase(findTestCase('03 - Websites Modules/Page - Checkout Payment/Select Pix And Submit Payment'), [:])
+
+WebUI.callTestCase(findTestCase('03 - Websites Modules/Page - Checkout Payment/Place Order'), [:])
+
 //WebUI.callTestCase(findTestCase('02 - Katalon Modules/Check Visual'), ['screenName':"1A - Simple Order Confirmation Page "])
-WebUI.callTestCase(findTestCase('03 - Websites Modules/Page - Checkout Order Confirmation/Print Order'),[:])
+WebUI.callTestCase(findTestCase('03 - Websites Modules/Page - Checkout Order Confirmation/Print Order'), [:])
+
 //Saving output data and closing browser
-WebUI.callTestCase(findTestCase('02 - Katalon Modules/Scenario Post Script for Checkout'),['order_number':order_number,'order_total':order_total,'client_email':client_email])
+WebUI.callTestCase(findTestCase('02 - Katalon Modules/Scenario Post Script for Checkout'), ['order_number' : order_number
+        , 'order_total' : order_total, 'client_email' : client_email])
+
+WebUI.closeBrowser()

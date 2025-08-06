@@ -10,19 +10,7 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f4cb047a-aeb5-4594-aab7-228dfb6159ab</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>ae5de7fd-5cea-41d4-b0f5-f3db5acd38c4</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>2ff4ae1c-a972-4ff8-b626-ada0df5a1652</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -31,25 +19,11 @@
       <variableId>62135ad6-4429-4ab5-b5c1-a73a2423c985</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'FR'</defaultValue>
-      <description></description>
-      <id>f4cb047a-aeb5-4594-aab7-228dfb6159ab</id>
-      <masked>false</masked>
-      <name>country_diminutive</name>
-   </variable>
-   <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>ae5de7fd-5cea-41d4-b0f5-f3db5acd38c4</id>
       <masked>false</masked>
       <name>test_case</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>2ff4ae1c-a972-4ff8-b626-ada0df5a1652</id>
-      <masked>false</masked>
-      <name>resolution</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>

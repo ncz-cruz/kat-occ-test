@@ -1,17 +1,26 @@
+// --- SCRIPT DE DIAGNÓSTICO ---
+
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.testobject.SelectorType
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-// Ação 1: Digita o SKU no campo de busca
-WebUI.setText(findTestObject('03 - Websites/Home/input-SearchProduct'), sku_id)
+// PASSO 1: PAUSA LONGA PARA VOCÊ VER A TELA
+// Durante este tempo, olhe para a janela do navegador e procure por qualquer
+// banner de promoção, pop-up de newsletter ou outro elemento que apareça.
+KeywordUtil.logInfo("INICIANDO PAUSA DE 15 SEGUNDOS PARA INSPEÇÃO VISUAL...")
+WebUI.delay(15)
 
-// Ação 2: Espera o wrapper de sugestões aparecer
-WebUI.waitForElementVisible(findTestObject('03 - Websites/Home/wrapper-SearchSuggestions'), 10)
+// PASSO 2: FOTO DA CENA DO CRIME
+// Esta screenshot será salva no seu relatório e será a prova definitiva
+// do que o robô está vendo no momento da falha.
+KeywordUtil.logInfo("Tirando screenshot antes da tentativa de interação...")
+WebUI.takeScreenshot()
 
-// Ação 3: Clica na sugestão de produto específica
-String searchedProductxpath = "//div[contains(@class,'suggestions-wrapper')]//button[@data-pid='${sku_id}']"
-TestObject product = new TestObject("Produto: " + sku_id)
-product.addProperty("xpath", SelectorType.XPATH, searchedProductxpath)
-WebUI.click(product)
-
+// PASSO 3: TENTATIVA DE INTERAÇÃO (ESPERADO FALHAR)
+// O teste provavelmente vai falhar aqui, mas não importa.
+// O objetivo é analisar a screenshot que foi gerada.
+try {
+    WebUI.setText(findTestObject('03 - Websites/Home/input-SearchProduct'), sku_id)
+} catch (Exception e) {
+    KeywordUtil.markFailed("A interação falhou como esperado. Por favor, analise a screenshot no relatório para identificar o elemento bloqueador.")
+}

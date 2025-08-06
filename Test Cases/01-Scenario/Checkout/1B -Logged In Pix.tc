@@ -34,7 +34,13 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a7985bce-f0ae-4dcd-854e-29947f407325</variableId>
+      <variableId>30b5c2e6-4052-472d-b882-ec2e614e642d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c600144a-b1c9-4242-aaad-3a2cbb71615d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -46,13 +52,25 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0083acaf-7a5c-4643-927e-8da724c2cac5</variableId>
+      <variableId>900f7645-7374-4cf0-9bf6-19ce245f3c54</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>30b5c2e6-4052-472d-b882-ec2e614e642d</variableId>
+      <variableId>51606138-d9ab-4653-a075-dd8136722815</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d5e76b04-cd67-403f-9231-1a006d7cbd28</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>73c9e8a9-9318-447b-9542-3e7799922846</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -64,49 +82,7 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>fc9b2d8b-6cb6-494e-90e3-9cf1d80171fa</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>f1d9b88a-13a3-4b96-8480-537125746f20</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>e809f2d1-c141-406b-a4a7-5427067e96f0</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ee72291a-6890-46d1-aa34-c4a62312496d</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>d28ae510-e03b-4057-861e-36e1308168bc</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>ddc924fb-d951-4326-b673-957761c9c65d</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>bbc3c5eb-d405-4a3a-859a-70f6c9eca81e</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>9dd99954-5666-410a-bb00-93d9709078b8</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -119,36 +95,6 @@
       <type>DEFAULT</type>
       <value></value>
       <variableId>85ab5cdb-e9b6-4913-91ed-bcb7ceae48f5</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>15e0b012-82e9-4dc7-8752-efdaf55145f0</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>1c8d3bbb-500b-44df-8cfd-5574b9c23381</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ec2f7eb3-745f-4803-834d-612681d8e615</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>8e741e38-4c88-430d-88c4-408cc4c045cd</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>26eb1996-ddff-40fd-908a-b460bfe84175</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
@@ -181,9 +127,16 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>a7985bce-f0ae-4dcd-854e-29947f407325</id>
+      <id>30b5c2e6-4052-472d-b882-ec2e614e642d</id>
       <masked>false</masked>
-      <name>address2</name>
+      <name>zip_postal</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c600144a-b1c9-4242-aaad-3a2cbb71615d</id>
+      <masked>false</masked>
+      <name>country</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
@@ -195,16 +148,30 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>0083acaf-7a5c-4643-927e-8da724c2cac5</id>
+      <id>900f7645-7374-4cf0-9bf6-19ce245f3c54</id>
       <masked>false</masked>
-      <name>country</name>
+      <name>hood</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>30b5c2e6-4052-472d-b882-ec2e614e642d</id>
+      <id>51606138-d9ab-4653-a075-dd8136722815</id>
       <masked>false</masked>
-      <name>zip_postal</name>
+      <name>number</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d5e76b04-cd67-403f-9231-1a006d7cbd28</id>
+      <masked>false</masked>
+      <name>complement</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>73c9e8a9-9318-447b-9542-3e7799922846</id>
+      <masked>false</masked>
+      <name>reference</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
@@ -216,58 +183,9 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>fc9b2d8b-6cb6-494e-90e3-9cf1d80171fa</id>
-      <masked>false</masked>
-      <name>cardholder_name</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>f1d9b88a-13a3-4b96-8480-537125746f20</id>
-      <masked>false</masked>
-      <name>card_number</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>e809f2d1-c141-406b-a4a7-5427067e96f0</id>
-      <masked>false</masked>
-      <name>security_code</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>ee72291a-6890-46d1-aa34-c4a62312496d</id>
-      <masked>false</masked>
-      <name>expdate_year</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>d28ae510-e03b-4057-861e-36e1308168bc</id>
-      <masked>false</masked>
-      <name>expdate_month</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
       <id>ddc924fb-d951-4326-b673-957761c9c65d</id>
       <masked>false</masked>
       <name>order_uuid</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>bbc3c5eb-d405-4a3a-859a-70f6c9eca81e</id>
-      <masked>false</masked>
-      <name>emailOptin</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>9dd99954-5666-410a-bb00-93d9709078b8</id>
-      <masked>false</masked>
-      <name>country_diminutive</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
@@ -282,40 +200,5 @@
       <id>85ab5cdb-e9b6-4913-91ed-bcb7ceae48f5</id>
       <masked>false</masked>
       <name>test_case</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>15e0b012-82e9-4dc7-8752-efdaf55145f0</id>
-      <masked>false</masked>
-      <name>storeCode</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>1c8d3bbb-500b-44df-8cfd-5574b9c23381</id>
-      <masked>false</masked>
-      <name>promotion_code</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>ec2f7eb3-745f-4803-834d-612681d8e615</id>
-      <masked>false</masked>
-      <name>language</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>8e741e38-4c88-430d-88c4-408cc4c045cd</id>
-      <masked>false</masked>
-      <name>amount_giving</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>26eb1996-ddff-40fd-908a-b460bfe84175</id>
-      <masked>false</masked>
-      <name>smsOptin</name>
    </variable>
 </TestCaseEntity>

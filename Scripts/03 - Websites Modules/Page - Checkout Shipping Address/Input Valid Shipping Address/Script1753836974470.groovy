@@ -5,7 +5,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 
-WebUI.waitForElementVisible(findTestObject('03 - Websites/Checkout - ShippingAddress/addressbookForm/input-FirstName'), 10)
+WebUI.waitForElementVisible(findTestObject('03 - Websites/Checkout - ShippingAddress/addressbookForm/input-FirstName'), 5)
 WebUI.setText(findTestObject('03 - Websites/Checkout - ShippingAddress/addressbookForm/input-FirstName'), first_name)
 WebUI.setText(findTestObject('03 - Websites/Checkout - ShippingAddress/addressbookForm/input-LastName'), last_name)
 
